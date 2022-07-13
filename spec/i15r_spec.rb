@@ -145,7 +145,7 @@ describe I15R do
         <input type="text" id="user-name" name="user[name]" />
       EOS
       i18ned_snippet = <<-EOS
-        <label for="user-name"><%= I18n.t("#{prefix_option}.name", :default => "Name") %></label>
+        <label for="user-name"><%= I18n.t("name", :default => "Name") %></label>
         <input type="text" id="user-name" name="user[name]" />
       EOS
 

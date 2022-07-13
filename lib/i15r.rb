@@ -68,7 +68,6 @@ class I15R
   def full_prefix(path)
     prefix = [config.prefix]
     prefix << file_path_to_message_prefix(path) if include_path?
-    prefix.compact.join('.')
   end
 
   def internationalize_file(path)
